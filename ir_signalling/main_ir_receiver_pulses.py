@@ -16,7 +16,6 @@ pulse = [9007, 4489, 572, 561, 575, 560, 576, 556, 549, 1664, 598,
 print('IR Pulse Reader')
 
 # Fuzzy pulse comparison function:
-# Fuzzy pulse comparison function:
 def fuzzy_pulse_compare(pulse1, pulse2, fuzzyness=0.2):
     if len(pulse1) != len(pulse2):
         return False
