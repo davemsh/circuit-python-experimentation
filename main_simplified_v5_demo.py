@@ -47,7 +47,6 @@ while True:
       print("A2 touched!", end ="\t")
   led.value = touch.value
 
-  i = (i+1) % 256  # run from 0 to 255
   time.sleep(0.01) # make bigger to slow down
 
   print("")
