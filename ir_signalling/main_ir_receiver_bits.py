@@ -2,6 +2,9 @@ import board
 import pulseio
 import adafruit_irremote
 
+# Derived from the tutorial found here:
+# https://learn.adafruit.com/infrared-ir-receive-transmit-circuit-playground-express-circuit-python/ir-test-with-remote
+
 IR_PIN = board.D2 # Pin connected to IR receiver.
 
 # Logitech Z-5500 remote codes
