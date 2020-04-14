@@ -4,6 +4,9 @@ import neopixel
 from digitalio import DigitalInOut, Direction, Pull
 import touchio
 
+# The built-in demo that the board came with, but I stripped out a bunch of the
+# examples I wasn't going to use, like the audio and servo motor sections.
+
 # One pixel connected internally!
 dot = neopixel.NeoPixel(board.NEOPIXEL, 1, brightness=0.1)
 
