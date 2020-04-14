@@ -2,6 +2,9 @@ import board
 import pulseio
 import adafruit_irremote
 
+# Derived from the tutorial found here: 
+# https://learn.adafruit.com/ir-sensor/circuitpython
+
 IR_PIN = board.D2  # Pin connected to IR receiver.
 
 # Expected pulse, pasted in from previous recording REPL session:
