@@ -4,6 +4,8 @@ import pulseio
 import adafruit_irremote
 from digitalio import DigitalInOut, Direction
 
+# Basic test of IR transmitter. Every five seconds, send the power toggle code I learned from using main_ir_receiver_bits.py
+
 IR_PIN = board.D2 # Pin connected to IR transmitter.
 CARRIER_FREQ = 38000 # 38 kHz
 DUTY_CYCLE = 2 ** 15 # 50% (range is 0-65536, 32768 (2^15) is 50% on/off, approximating a sine wave)
